@@ -1,0 +1,16 @@
+name: dataset-submission
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python =3.8
+  - pip
+  - qcportal
+  - openff-qcsubmit
+  - openff-toolkit 
+  - rdkit
+  - qcelemental =0.24.0
+  - pip:
+    - git+https://github.com/SimonBoothroyd/constructure.git@main
