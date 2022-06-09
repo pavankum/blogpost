@@ -9,7 +9,7 @@ dependencies:
   - pip
   - qcportal
   - openff-qcsubmit
-  - openff-toolkit 
+  - openff-toolkit
   - rdkit
   - qcelemental =0.24.0
   - pip:
